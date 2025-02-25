@@ -1,4 +1,4 @@
-terraform {
+/*terraform {
   backend "s3" {
     bucket = "bala-demo-terraform-s3-xyz"
     region = "ap-south-1"
@@ -7,5 +7,5 @@ terraform {
     dynamodb_table = "terraform-lock"
   }
 }
-
+*/
 
