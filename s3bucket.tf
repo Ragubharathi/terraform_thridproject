@@ -1,7 +1,4 @@
-terraform {
-  backend "s3" {
-    bucket = "bala-demo-terraform-s3-xyz"
-    region = "ap-south-1"
-    key = "bala/terraform.tfstate"
-  }
+resource "aws_s3_bucket" "s3bucket" {
+  bucket = "bala-demo-terraform-s3-xyz"
+  region = var.my_region
 }
