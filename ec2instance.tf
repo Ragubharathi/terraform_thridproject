@@ -8,7 +8,7 @@ resource "aws_instance" "devserver" {
 }
 
 resource "aws_security_group" "sg" {
-  name = ragusg
+  name = "ragusg"
   vpc_id = aws_vpc.dynamic_vpc.id
 
   ingress {
